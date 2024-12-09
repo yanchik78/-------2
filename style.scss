@@ -1,1 +1,21 @@
+@font-face {
+    font-family: RubikBold;
+    src: url(./assets/fonts/Rubik-Bold.ttf);
+    font-weight: 700;
+}
+  @font-face {
+    font-family: RubikReg;
+    src: url(./assets/fonts/Rubik-Regular.ttf);
+    font-weight: 400;
+}
+  @font-face {
+    font-family: RubikMed;
+    src: url(./assets/fonts/Rubik-Medium.ttf);
+    font-weight: 500;
+}
 
+@mixin box-shadow($x, $y, $blur, $spread, $color) {
+    -moz-box-shadow: $x $y $blur $spread $color;
+    -webkit-box-shadow: $x $y $blur $spread $color;
+    box-shadow: $x $y $blur $spread $color;
+}
